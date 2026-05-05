@@ -15,8 +15,7 @@ def print_menu():
     """
     打印主菜单
     """
-    print("
-" + "="*50)
+    print("\n" + "="*50)
     print("鸢尾花数据分类及可视化项目")
     print("="*50)
     print("请选择要执行的功能:")
@@ -33,8 +32,7 @@ def run_data_preview():
     """
     from visualizations.data_preview import show_data_preview, plot_boxplots, plot_scatter_plots
 
-    print("
-数据预览选项:")
+    print("\n数据预览选项:")
     print("1. 显示数据预览")
     print("2. 绘制箱线图")
     print("3. 绘制散点图")
@@ -76,8 +74,7 @@ def run_decision_boundary():
     """
     from visualizations.decision_boundary import plot_binary_decision_boundary, plot_multi_class_decision_boundary
 
-    print("
-决策边界可视化选项:")
+    print("\n决策边界可视化选项:")
     print("1. 二分类决策边界")
     print("2. 多分类决策边界")
     print("0. 返回主菜单")
